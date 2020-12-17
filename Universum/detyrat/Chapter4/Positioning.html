@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<!--fig. 4.9; positioning.html -->
+<!-- Absolute positioning of elements -->
+<html>
+	<head>
+			<meta charset="utf-8">
+			<title>Absolute Positioning</title>
+			<style type="text/css">
+		
+				.bacground_image {position: absolute;
+					top: 0px;
+					left: 0px;
+					z-index: 1; }
+
+				.foreground_image { position: absolute;
+									top: 25px;
+									left: 100px;
+									z-index: 2;}
+
+				.text   			{position: absolute;	
+									top: 25px;
+									left: 100px;
+									z-index: 3px;
+									font-size: 20pt;			
+									font-family: tahoma, geneva, sans-serif; } 
+								</style>
+	</head>
+	
+
+													<body>
+														<p><img src="foto/pic1.jpg" class="webwork1"
+															alt="First positioned image" /></p>
+
+															<p><img src ="foto/pic2.png" class = "foreground_image"
+             																					alt = "Second positioned image" /></p>
+        </body>
+    </html>
+ 
